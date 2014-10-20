@@ -1,0 +1,2 @@
+SUBDIRS = ch-sockmon
+ACLOCAL_AMFLAGS = -I m4
