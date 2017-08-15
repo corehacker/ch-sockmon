@@ -508,7 +508,7 @@ static SOCKMON_RET_E sockmon_prepare_select_sock_list(
       }
       else
       {
-         SMON_LOG_HIGH("No sockets registered. Nothing to select on");
+         // SMON_LOG_HIGH("No sockets registered. Nothing to select on");
          e_error = eSOCKMON_RET_SUCCESS;
       }
    }
